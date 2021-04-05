@@ -1,0 +1,34 @@
+# Binaries
+!vendor/bin/premake/
+bin-int/
+bin/
+/bin
+/build
+/cmake-build-debug
+Debug/
+.vscode
+.idea
+
+# C++ garbage files
+Hasher.cc
+Hasher.hpp
+Runner.cc
+Runner.hpp
+
+Scene.old.*
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+*.vssettings
+*.gch
+
+# Other
+ECS/
+*.ini
+*.lib
+*.exe
+*.pdb
